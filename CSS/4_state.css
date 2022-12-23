@@ -1,0 +1,17 @@
+.hidden{
+    visibility: hidden;
+}
+
+.none{
+    display: none;
+}
+
+.sucess{
+    color: #1f7f45;
+    border-bottom: 1px solid #1f7f45;
+}
+
+.danger{
+    color: #d72923;
+    border-bottom: 1px solid #d72923;
+}

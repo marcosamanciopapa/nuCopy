@@ -1,0 +1,987 @@
+                            /*Telas pequenas e laptops*/
+
+@media  (min-width:769px) and (max-width:1024px){
+    .header{
+        justify-content: space-between;
+    }
+    .nav{
+        position: absolute;
+        background-color: white;
+        width: 100vw;
+        height: 100%;
+        top: -2000px;
+        left: 0;
+        margin: 0;
+    }
+
+    .nav__ul{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .nav__li{
+        width: 100vw;
+        border-bottom: 1px solid black;
+        padding: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav__li ~ .nav__li{
+        margin: 0;
+    }
+
+    .nav__li--responsive{
+        display: flex;
+        border-bottom: none;
+        flex-direction: row;
+    }
+
+    .nav__link{
+        font-size: 4rem;
+        font-family: Graphik-medium, Helvetica, sans-serif;
+    }
+
+    .fa-circle{
+        visibility: hidden;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .beaCostumer__button--less{
+        font-family: Helvetica, sans-serif;
+        width: 25vw;
+        height: 4vh;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        font-size: 1rem;
+        margin-left: 50vw;
+    }
+
+    .menu__hamburger{
+        background-color: #e0c2ff;
+        padding: 15px;
+        border-radius: 50%;
+        margin-right: 3%;
+    }
+
+    .nav__close{
+        display: block;
+        background-color: #e0c2ff;
+        padding: 15px;
+        border-radius: 50%;
+        margin-right: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 2vh;
+    }
+
+    .nav__less_screen{
+        position: fixed;
+        top: 0;
+    }
+
+    .menu_hover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .menu_hover__box{
+        width: 300px;
+        height: 300px;
+        margin-right: 10vw;
+    }
+
+    .menu_hover__box--business{
+        width: 400px;
+    }
+
+    .menu_hover__box--nu{
+        height: 400px;
+    }
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*Summon*/
+
+    .summon{
+        grid-column: 1 / 5;
+        min-height: 0;
+        height: 70vh;
+        padding: 25px;
+        background-position: 85% 90%, center;
+    }
+
+    .summon__first_box{
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        align-self: center;
+    }
+
+    .summon__second_box{
+        margin-top: 5vh;
+        width: 100vw;
+        padding: 20px;
+        box-sizing: border-box;
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .second_box__texts{
+        margin: 0 0 0 3vw;
+    }
+
+    .beaCostumer{
+        width: 30vw;
+        margin: 0 0 0 65px;
+        height: 350px;
+    }
+
+    /*-----------------------------------------------------------------------------------------------------------*/
+    /*PRIZES*/
+
+    .prizes{
+        height: max-content;
+        padding: 3vh 0;
+    }
+
+    .prizes__title{
+        font-size: 1.875rem;
+    }
+
+    .prizes__explain{
+        font-size: 1.5rem;
+    }
+
+    .prizes__box_text{
+        margin-top: 4vh;
+    }
+
+    .prizes__rules{
+        cursor: pointer;
+        margin: 8vh 0 0 0;
+        align-self: center;
+        font-size: 1.125rem;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*NUCARD*/
+
+    .nu_card{
+        min-height: 0;
+        height: max-content;
+        padding: 40px;
+    }
+
+    .nu_card2{
+        min-height: 0;
+        height: max-content;
+        padding: 40px;
+    }
+
+    .nu_account{
+        min-height: 0;
+        height: max-content;
+        padding: 40px; 
+    }
+
+    .nu_left__know{
+        min-width: 83%;
+        width: max-content;
+    }
+
+    .nu_pj{
+        min-height: 0;
+        height: max-content;
+        padding: 40px; 
+    }
+
+    .nu_left__title{
+        margin-bottom: 30px;
+    }
+
+    .nu_left__title--black{
+        font-size: 40px;
+    }
+
+    .nu_picture{
+        height: 55%;
+        width: 75%;
+    }
+
+    .nu_picture--less{
+        width: 60%;
+        height: 65%;
+    }
+
+    .believe{
+        padding: 40px;
+        min-height: 0;
+        height: max-content;
+    }
+
+    .community{
+        padding: 40px;
+        min-height: 0;
+        height: max-content;
+    }
+
+    .information{
+        padding: 40px;
+        min-height: 0;
+        height: max-content;
+        background-size: cover;
+        background-position: center left;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*FOOTER*/
+
+    .footer{
+        padding: 40px;
+        min-height: 0;
+        height: max-content;
+    }
+
+    .footer__box{
+        justify-content: center;
+        align-self: center;
+        margin: 0;
+    }
+
+    .footer__list{
+        margin: 4vh 4vw 0 4vw;
+    }
+
+    .footer__address{
+        padding: 30px;
+        width: 100vw;
+        align-self: center;
+    }
+
+    .address__image{
+        width: 40px;
+        height: 24px;
+        margin: 30px 10px;
+    }
+
+    .footer__text{
+        width: 400px;
+        margin-right: 5vw;
+        word-spacing: 5px;
+    }
+
+}
+
+
+                            /*TABLETS AND IPADS*/
+
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header{
+        justify-content: space-between;
+        grid-column: 1 / 3;
+    }
+    .nav{
+        position: absolute;
+        background-color: white;
+        width: 100vw;
+        height: 100%;
+        top: -2000px;
+        left: 0;
+        margin: 0;
+    }
+
+    .nav__ul{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .nav__li{
+        width: 100vw;
+        border-bottom: 1px solid black;
+        padding: 50px;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        
+    }
+
+    .nav__li ~ .nav__li{
+        margin: 0;
+    }
+
+    .nav__li--responsive{
+        display: flex;
+        border-bottom: none;
+        flex-direction: row;
+    }
+
+    .nav__link{
+        font-size: 3.5rem;
+        font-family: Graphik-medium, Helvetica, sans-serif;
+        line-height: 40px;
+    }
+
+    .fa-circle{
+        visibility: hidden;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .beaCostumer__button--less{
+        font-family: Helvetica, sans-serif;
+        min-width: 40vw;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        font-size: 1rem;
+        margin-left: 25vw;
+        padding: 20px;
+    }
+
+    .menu__hamburger{
+        background-color: #e0c2ff;
+        padding: 15px;
+        border-radius: 50%;
+        margin-right: 3%;
+    }
+
+    .nav__close{
+        display: block;
+        background-color: #e0c2ff;
+        padding: 10px;
+        border-radius: 50%;
+        margin-right: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 2vh;
+    }
+
+    .nav__less_screen{
+        position: fixed;
+        top: 0;
+    }
+
+    .menu_hover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .menu_hover__box{
+        width: 300px;
+        height: 300px;
+        margin-right: 10vw;
+    }
+
+    .menu_hover__box--business{
+        width: 400px;
+    }
+
+    .menu_hover__box--nu{
+        height: 400px;
+    }
+
+     /*---------------------------------------------------------------------------------------------------------------*/
+    /*Summon*/
+
+    .summon{
+        grid-column: 1 / 3;
+        background-size: 95.94px 41.34px, cover;
+        background-position: 95% 98%, center;
+        height: max-content;
+    }
+
+    .summon__first_box{
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        align-self: center;
+    }
+
+    .summon__title{
+        font-size: 40px;
+        text-align: justify;
+    }
+
+    .summon__second_box{
+        margin-top: 5vh;
+        width: 75vw;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .second_box__texts{
+        margin: 0;
+        align-self: center;
+        width: 100%;
+    }
+
+    .summon__second_title{
+        text-align: justify;
+    }
+
+    .beaCostumer{
+        width: 40vw;
+        margin: 20px 0;
+        align-self: center;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*Prizes*/
+
+    .prizes{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .prizes__texts{
+        width: 100vw;
+        margin-top: 6vh;
+    }
+
+    .prizes__title{
+        font-size: 30px;
+        line-height: 36px;
+        width: 90%;
+    }
+
+    .prizes__box_text{
+        width: 90vw;
+        margin-top: 2vh;
+    }
+
+    .prizes__explain{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .prizes__rules{
+        margin: 6vh 6vw;
+    }
+
+    .prizes__pictures{
+        align-self: center;
+        margin-bottom: 15vh;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*nu_card*/
+
+    .nu_card{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+        padding: 25px;
+    }
+
+    .nu_left{
+        width: 100vw;
+        align-items: flex-start;
+    }
+
+    .nu_left__title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    
+    .nu_left__title--black{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .nu_left__know_text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .nu_right{
+        width: 90vw;
+        margin: 5vh 0;
+    }
+
+    .nu_picture{
+        width: 100%;
+        height: 300px;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*nu_card*/
+
+    .nu_card2{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+        padding: 25px;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*nu_account*/
+
+    .nu_account{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+        padding: 25px;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*nu_pj*/
+
+    .nu_pj{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+        padding: 25px;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*believe*/
+
+    .believe{
+        grid-column: 1/ 3;
+        padding: 25px;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------*/
+    /*comunity*/
+
+    .community{
+        grid-column: 1/ 3;
+        padding: 25px;
+        height: max-content;
+    }
+
+    .information{
+        grid-column: 1/3;
+        padding: 25px;
+        background-image:url(../images/1650390823-tattooed-man-looking-up-smiling-xs-3x.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: max-content;
+    }
+
+    .footer{
+        align-items: center;
+    }
+
+    .footer__box{
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .footer__list{
+        width: 400px;
+        margin-top: 5vh;
+    }
+
+    .footer__list_title{
+        font-size: 30px;
+    }
+
+    .footer__link{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .footer__address{
+        padding: 30px;
+    }
+
+    .address__image{
+        width: 74.88px;
+        height: 45.25px;
+        margin: 20px 10px;
+    }
+
+    .footer__text{
+        box-sizing: border-box;
+        padding: 10px;
+        width: 450px;
+        margin: 0 0 20px 0;
+        word-spacing: 10px;
+        text-align: justify;
+    }
+
+    .address__text{
+        line-height: 24px;
+    }   
+
+}
+
+/*Dipositivos móveis*/
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header{
+        justify-content: space-between;
+        grid-column: 1 / 3;
+    }
+    .nav{
+        position: absolute;
+        background-color: white;
+        width: 100vw;
+        height: 100%;
+        top: -2000px;
+        left: 0;
+        margin: 0;
+    }
+
+    .nav__ul{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .nav__li{
+        width: 100vw;
+        border-bottom: 1px solid black;
+        padding: 50px;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        
+    }
+
+    .nav__li ~ .nav__li{
+        margin: 0;
+    }
+
+    .nav__li--responsive{
+        display: flex;
+        border-bottom: none;
+        flex-direction: row;
+    }
+
+    .nav__link{
+        font-size: 2.5rem;
+        font-family: Graphik-medium, Helvetica, sans-serif;
+        line-height: 40px;
+    }
+
+    .fa-circle{
+        visibility: hidden;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .beaCostumer__button--less{
+        font-family: Helvetica, sans-serif;
+        min-width: 40vw;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        font-size: 1rem;
+        margin-left: 25vw;
+        padding: 20px;
+    }
+
+    .menu__hamburger{
+        background-color: #e0c2ff;
+        padding: 15px;
+        border-radius: 50%;
+        margin-right: 3%;
+    }
+
+    .nav__close{
+        display: block;
+        background-color: #e0c2ff;
+        padding: 10px;
+        border-radius: 50%;
+        margin-right: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 2vh;
+    }
+
+    .nav__less_screen{
+        position: fixed;
+        top: 0;
+    }
+
+    .menu_hover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .menu_hover__box{
+        width: 300px;
+        height: 300px;
+        margin-right: 10vw;
+    }
+
+    .menu_hover__box--business{
+        width: 400px;
+    }
+
+    .menu_hover__box--nu{
+        height: 400px;
+    }
+
+    /*Summon*/
+
+    .summon{
+        grid-column: 1 / 3;
+        background-size: 95.94px 41.34px, cover;
+        background-position: 52% 98%, center;
+        height: max-content;
+    }
+
+    .summon__first_box{
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20vh;
+        align-self: center;
+    }
+
+    .summon__title{
+        font-size: 36px;
+        text-align: justify;
+    }
+
+    .summon__second_box{
+        margin-top: 5vh;
+        width: 75vw;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .second_box__texts{
+        margin: 0;
+        align-self: center;
+        width: 100%;
+    }
+
+    .summon__second_title{
+        text-align: justify;
+        font-size: 1.7rem;
+    }
+
+    .beaCostumer{
+        width: 40vw;
+        margin: 20px 0 100px 0;
+        align-self: center;
+    }
+
+    .beaCostumer__button{
+       width: max-content;
+    }
+
+    .beaCostumer__icon{
+        margin-left: 5px;
+    }
+
+    /*Prizes*/
+
+    .prizes{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .prizes__texts{
+        width: 100vw;
+        margin-top: 6vh;
+    }
+
+    .prizes__title{
+        font-size: 30px;
+        line-height: 36px;
+        width: 90%;
+    }
+
+    .prizes__box_text{
+        width: 90vw;
+        margin-top: 2vh;
+    }
+
+    .prizes__explain{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .prizes__rules{
+        margin: 6vh 6vw;
+    }
+
+    .prizes__pictures{
+        align-self: center;
+        margin-bottom: 15vh;
+    }
+
+     /*nu_card*/
+
+     .nu_card{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+        padding: 25px;
+    }
+
+    .nu_left{
+        width: 100vw;
+        align-items: flex-start;
+    }
+
+    .nu_left__title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    
+    .nu_left__title--black{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .nu_left__know_text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .nu_right{
+        width: 90vw;
+        margin: 5vh 0;
+    }
+
+    .nu_picture{
+        width: 100%;
+        height: 300px;
+    }
+
+    /*nu_card2*/
+
+    .nu_card2{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+        padding: 25px;
+    }
+
+     /*nu_account*/
+
+     .nu_account{
+        grid-column: 1 / 3;
+        flex-direction: column;
+        height: max-content;
+        padding: 25px;
+    }
+
+        /*nu_pj*/
+
+        .nu_pj{
+            grid-column: 1 / 3;
+            flex-direction: column;
+            height: max-content;
+            padding: 25px;
+        }
+    
+        /*believe*/
+    
+        .believe{
+            grid-column: 1/ 3;
+            padding: 25px;
+        }
+    
+        /*comunity*/
+    
+        .community{
+            grid-column: 1/ 3;
+            padding: 25px;
+            height: max-content;
+        }
+    
+        /*Information*/
+        .information{
+            grid-column: 1/3;
+            padding: 25px;
+            background-image:url(../images/1650390823-tattooed-man-looking-up-smiling-xs-3x.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: max-content;
+        }
+
+        /*footer*/
+        .footer{
+            align-items: center;
+        }
+    
+        .footer__box{
+            width: 100%;
+            margin-top: 5vh;
+        }
+    
+        .footer__list{
+            width: 400px;
+            margin-top: 5vh;
+        }
+    
+        .footer__list_title{
+            font-size: 30px;
+        }
+    
+        .footer__link{
+            font-size: 24px;
+            line-height: 30px;
+        }
+    
+        .footer__address{
+            padding: 30px;
+        }
+    
+        .address__image{
+            width: 74.88px;
+            height: 45.25px;
+            margin: 20px 10px;
+        }
+    
+        .footer__text{
+            box-sizing: border-box;
+            padding: 10px;
+            width: 350px;
+            margin: 0 0 20px 0;
+            word-spacing: 10px;
+            text-align: justify;
+        }
+    
+        .address__text{
+            line-height: 24px;
+        }
+}
